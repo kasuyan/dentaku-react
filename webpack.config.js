@@ -4,6 +4,7 @@ module.exports = {
   },
   output: {
     path: __dirname + "/dist/js",
+    publicPath: "/js/",
     filename: "main.js"
   },
   module: {
@@ -22,7 +23,9 @@ module.exports = {
     ]
   },
   devServer: {
-    contentBase: "dist",
+    contentBase: "dist/",
+    watchContentBase: true,
+    inline: true,
     host: "127.0.0.1",
     port: 3001
   }
