@@ -9,9 +9,9 @@ import Result from './Result';
 
 class Dentaku extends React.Component {
   render() {
-    const { calculator, actions } = this.props;
-    console.log('Dentaku this.props=', this.props);
-    console.log('Dentaku render', calculator, actions);
+    // const { calculator, actions } = this.props;
+    // console.log('Dentaku this.props=', this.props);
+    // console.log('Dentaku render', calculator, actions);
 
     return (
       <div className="dentaku">

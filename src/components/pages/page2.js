@@ -3,7 +3,7 @@ import Dentaku from '../project/dentaku';
 
 export default class Page2 extends React.Component {
   render() {
-    console.log('Page2 this.props=', this.props);
+    // console.log('Page2 this.props=', this.props);
     return (
       <div>
         <Dentaku />
